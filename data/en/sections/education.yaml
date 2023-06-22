@@ -1,0 +1,22 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Software Engineer
+  icon: fa-microscope
+  timeframe: 2017-2022
+  institution:
+    name: Da Nang University of Science and Technology
+    url: "https://dut.udn.vn/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.1
+    outOf: 4

@@ -1,0 +1,62 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: CMC Global
+    url: "https://cmcglobal.com.vn/"
+    location: Da Nang
+    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Devops
+    start: Sep 2022
+    responsibilities:
+    - Build a CICD system with Jenkins integrated with the AWS platform.
+    - Design, develop and manag load balancing and auto scalling architectures using the AWS platform.
+    - "Technologies: Amazon Elastic Load Balancer (ELB), HAProxy, Prometheus, Grafana, Amazon EC2, CloudFront, S3, Route53, Lambda Function, ..."
+
+  - designation: Software Engineer
+    start: Sep 2022
+    responsibilities:
+    - Programming the backend and frontend of an e-commerce system. Focus on Backend segment.
+    - In charge of performing the search function with ELK stack (Elasticsearch, Logstash, Kibana).
+    - "Technologies: ReactJS, ThreeJS, ExpressJS, NestJS, Elasticsearch, Logstash, Kibana, MSSQL,..."
+
+- company:
+    name: Rising Stars
+    url: "https://rising-stars.vn/"
+    location: Da Nang
+    overview: "RISING STARS is a home where young talents and enthusiastic engineers gather and work in Da Nang, Vietnam.Striving to be one of the leading enterprises providing high-quality and professional IT human resources, we help solve clients’ problems in various fields: Website Development, Mobile App Development, Dedicated Development Team, IT Consulting"
+  positions:
+  - designation: Developer
+    start: Sep 2021
+    end: Aug 2022
+    responsibilities:
+    - Backend and frontend programming of HRM systems, responsible for a small team.
+    - Working under Agile model, Scrum Framework.
+    - Understand the software development process, task management, risk management.
+    - Application management and deployment.
+    - "Technologies: ReactJS, ExpressJS, Docker, CodeIgniter 3 (PHP), MySQL, AWS S3, CICD with Jenkins, AWS CodeDeploy, SSM, ..."
+
+- company:
+    name: Xenia Tech
+    url: "https://xenia.tech/"
+    location: Da Nang
+    overview: Working as a Fullstack Developer (Intern) with HRM project types and job referral system
+  positions:
+  - designation: Intern -> Fresher
+    start: Jan 2021
+    end: Aug 2021
+    responsibilities:
+    - Full-time full-stack intern and fresher. 
+    - Backend and frontend programming of HRM systems, smart car booking systems and job placement systems
+    - Issue tracking and management with Jira and Bitbucket.
+    - "Technologies: ReactJS with Ant Design and Ant Design Pro, MongoDB, SQLite, NestJS, NextJS, ExpressJS."
